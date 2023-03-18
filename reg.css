@@ -1,0 +1,62 @@
+body,html {
+    height: 100%;
+    position: relative;
+}
+.bg {
+    background-image: url("regback01.jpg");
+    height : 100%;
+    background-position: centre;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    padding: 30px 10cm ;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    width: 75%;
+    height:88%;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 20px 0px  black;
+    border-radius: 20px;
+    border-color: rgb(255, 134, 22);
+    margin-top: -10px;
+}    
+input[type='text'],
+input[type='password'] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 27px;
+    background: rgb(244, 241, 241);
+    align-items: baseline;
+    margin-left: 50px;
+}
+input[type='text'] :focus,
+input[type='password'] :focus{
+    background-color: white;
+    outline: none;
+}
+.but {
+    background-color: rgb(135, 183, 222);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    opacity: 0.8;
+    align-self: center;
+    padding: 15px;
+}
+.but:hover {
+    opacity: 0.2;
+}
+label{
+    padding-left:20px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}
+  
+.container {  
+    padding: 160px; 
+    
+  background-color: rgb(128, 154, 163);
+  background-image: url("./homeback.jpg");  
+}  
+input[type=date], input[type=date], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=number], input[type=number], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #315532;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body> 
+    <div class="wrap">
+        <div class="bg_area">
+          <div class="bg01 clearfix"></div>
+        </div>
+      </div> 
+<form> 
+  <div class="container">  
+  <center>  <h1><b> HOUSE DETAILS </b></h1> </center>  
+  <hr>  
+  <label for="house_id"><b>house_id</b></label>  
+  <input type="number" placeholder="Enter House_ID" name="house_id" / required>
+  <label for="house_no"><b>House Number</b></label>  
+<input type="number" placeholder="house_no" name="house_no" / required>
+ 
+<label for="north_east"><b>North East</b></label> 
+<input type="text" name="north_east" placeholder="north_East"/ required> 
+<label for="south_west"><b>south_west</b></label> 
+<input type="text" name="south_west" placeholder="south_west"/ required>
+
+<label for="dimenstion"><b>dimenstion</b></label> 
+<input type="text" name="dimenstion" placeholder="dimenstion"/ required>  
+<label for="sq_feet"><b>square feet</b></label>  
+<input type="number" placeholder="sq_feet" name="sq_feet" / required>
+
+
+<button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>
